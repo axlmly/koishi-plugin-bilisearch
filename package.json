@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-bilisearch",
-  "description": "",
+  "description": "Search and screenshot bilibili website videos",
   "version": "0.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -9,14 +9,25 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.17.4"
-  }
+  },
+  "devDependencies": {
+    "koishi-plugin-puppeteer": "^3.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "koishi": {
+    "description": {
+      "en": "Search and screenshot bilibili website videos",
+      "zh": "对bilibili网站进行搜索截图(抄的)"
+    }}
+
 }
