@@ -1,7 +1,10 @@
 {
   "name": "koishi-plugin-bilisearch",
   "description": "Search and screenshot bilibili website videos",
-  "version": "0.0.1",
+  "version": "0.2.0",
+  "contributors": [
+    "AXLMLY xiuzhantianming@163.com"
+  ],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -28,6 +31,6 @@
     "description": {
       "en": "Search and screenshot bilibili website videos",
       "zh": "对bilibili网站进行搜索截图(抄的)"
-    }}
-
+    }
+  }
 }
